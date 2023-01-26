@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import beluga from "./beluga.png";
 import Display from "./component/display";
 
 const NoUserFound = () => {
