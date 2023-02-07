@@ -61,7 +61,7 @@ function App() {
               <Display
                 imgSrc={user.avatar_url}
                 html_url={user.html_url}
-                username={user.name}
+                username={user.name !== null ? user.name : searchValue}
               ></Display>
             )}
           </section>
